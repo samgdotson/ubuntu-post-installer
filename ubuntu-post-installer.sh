@@ -42,6 +42,7 @@ wget https://download.opensuse.org/repositories/home:/gottcode/xUbuntu_20.04/amd
 sudo apt install ./focuswriter_1.7.6_+1.2_amd64.deb -y
 
 # install Zotero
+wget https://raw.githubusercontent.com/samgdotson/ubuntu-post-installer/master/zotero_installer.sh
 bash zotero_installer.sh
 
 # install LaTeX
