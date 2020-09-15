@@ -31,7 +31,6 @@ means you don't even have git installed, yet) then you can do the following
 
 ```bash
 wget https://raw.githubusercontent.com/samgdotson/ubuntu-post-installer/master/ubuntu-post-installer.sh
-wget https://raw.githubusercontent.com/samgdotson/ubuntu-post-installer/master/zotero_installer.sh
 bash ubuntu-post-installer.sh
 ```
 
