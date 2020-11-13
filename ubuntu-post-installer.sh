@@ -7,8 +7,8 @@ sudo apt-get install pavucontrol gimp gnome-shell-pomodoro -y
 sudo apt-get install update
 
 # install anaconda
-wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
-bash Anaconda3-2020.02-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+bash Anaconda3-2020.07-Linux-x86_64.sh
 sudo apt-get install update
 
 # download and install Google Chrome
