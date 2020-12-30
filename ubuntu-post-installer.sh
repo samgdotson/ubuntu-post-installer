@@ -1,10 +1,10 @@
 #! /bin/bash
 
-sudo apt-get install update
-sudo apt-get install upgrade -y
+sudo apt-get update
+sudo apt-get upgrade -y
 sudo apt-get install curl vim git -y
 sudo apt-get install pavucontrol gimp gnome-shell-pomodoro -y
-sudo apt-get install update
+sudo apt-get update
 
 # install anaconda
 wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
@@ -14,7 +14,7 @@ sudo apt-get install update
 # download and install Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
-sudo apt-get install update
+sudo apt-get update
 
 # install code editors
 wget -qO - https://packagecloud.io/AtomEditor/atom/gpgkey | sudo apt-key add -
@@ -47,4 +47,4 @@ bash zotero_installer.sh
 
 # install LaTeX
 sudo apt-get install texlive-full -y
-sudo apt-get install update
+sudo apt-get update
