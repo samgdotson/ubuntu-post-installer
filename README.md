@@ -34,16 +34,15 @@ wget https://raw.githubusercontent.com/samgdotson/ubuntu-post-installer/master/u
 bash ubuntu-post-installer.sh
 ```
 
+then follow the prompts to install everything. I automated what I could, but Anaconda requires
+some care to ensure it's added to PATH and Zotero also requires a bit of care as well.
+
 ### Linux Troubleshooting
 
 Below are some links that have helped me solve issues with Linux.
 
 #### Update failure
 * [Repository does not have a release file](https://itsfoss.com/repository-does-not-have-release-file-error-ubuntu/)
-
-
-then follow the prompts to install everything. I automated what I could, but Anaconda requires
-some care to ensure it's added to PATH and Zotero also requires a bit of care as well.
 
 ### Credits
 Credit for the Zotero installation script goes to Sebastiaan Mathôt. I made some minor changes
